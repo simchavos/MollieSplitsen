@@ -21,7 +21,7 @@ def bereken_omzet():
             costs[name] = 0
         else:
             activity_dict[name] += 1
-        costs[name] += float(transaction[3]) - 0.35
+        costs[name] += float(transaction[3]) - 0.39
 
     for activity in costs:
         print(activity + ": " + str(costs[activity]))
